@@ -30,3 +30,7 @@ yellow - The color yellow. Can only be used when a function needs a color.
 cyan - The color cyan. Can only be used when a function needs a color.
 
 green - The color green. Can only be used when a function needs a color.
+
+# Requirements
+
+colorama - For tbgdl_print(text, color) command.
