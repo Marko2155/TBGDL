@@ -39,7 +39,6 @@ def tbgdl_load_scene(scene):
     return scene
 
 def tbgdl_playsound(sound):
-    if os.name == "nt":
-        winsound.PlaySound(sound, winsound.SND_ASYNC)
-    else:
-        raise Exception("TBGDL does not have support for playing sounds on Linux/MacOS yet.")
+        player = musicalbeeps.Player(volume = 0.3, mute_output = False)
+        player.play_note(beep, sound)
+
