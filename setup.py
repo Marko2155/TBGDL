@@ -9,7 +9,7 @@ setup(
     long_description_content_type='text/markdown',
     long_description=long_description,
     keywords="pygame, textadventure, text, game",
-    version='1.0.0',
+    version='1.0.1',
     packages=['tbgdl'],
     url='https://github.com/Marko2155/TBGDL',
     license='MIT',
