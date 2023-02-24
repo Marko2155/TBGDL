@@ -12,7 +12,10 @@ setup(
     version='1.0.1',
     packages=['tbgdl'],
     install_requires=[
-        "colorama~=0.3.5"
+        "colorama",
+        "simpleaudio",
+        "numpy",
+        "musicalbeeps"
     ],
     url='https://github.com/Marko2155/TBGDL',
     license='MIT',
