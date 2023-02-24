@@ -3,7 +3,7 @@
 
 from colorama import *
 import os
-import winsound
+import musicalbeeps
 
 red = Fore.RED
 black = Fore.BLACK
