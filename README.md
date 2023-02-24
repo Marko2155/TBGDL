@@ -14,7 +14,7 @@ tbgdl_new_scene(command1, command2, command3, command4, command5, command6, comm
 
 tbgdl_load_scene(scene) - Loads the variable that you stored your scene in.
 
-tbgdl_playsound(sound) - Plays sounds. Windows only. If you try it on Linux or MacOS you will get an error.
+tbgdl_playsound(note, sound) - Make beeps with it. The notes need to be in a string, and the sound param is the duration of the beep. 
 
 # Variables
 default - The default color white. Can only be used when a function needs a color.
@@ -36,3 +36,5 @@ green - The color green. Can only be used when a function needs a color.
 # Requirements
 
 colorama - For tbgdl_print(text, color) command.
+
+musicalbeeps - For tbgdl_playsound(note, sound) command.
