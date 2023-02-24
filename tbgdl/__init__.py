@@ -42,4 +42,4 @@ def tbgdl_playsound(sound):
     if os.name == "nt":
         winsound.PlaySound(sound, winsound.SND_ASYNC)
     else:
-        tbgdl_print(red, "TBGDL does not have support for playing sounds on Linux/MacOS yet.")
+        raise Exception("TBGDL does not have support for playing sounds on Linux/MacOS yet.")
