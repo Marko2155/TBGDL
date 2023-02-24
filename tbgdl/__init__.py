@@ -38,7 +38,7 @@ def tbgdl_new_scene(command1, command2, command3, command4, command5, command6, 
 def tbgdl_load_scene(scene):
     return scene
 
-def tbgdl_playsound(sound):
+def tbgdl_playsound(note, sound):
         player = musicalbeeps.Player(volume = 0.3, mute_output = False)
-        player.play_note(beep, sound)
+        player.play_note(note, sound)
 
