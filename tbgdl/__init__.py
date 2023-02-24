@@ -3,7 +3,7 @@
 
 from colorama import *
 import os
-import playsound
+import winsound
 
 red = Fore.RED
 black = Fore.BLACK
@@ -37,3 +37,9 @@ def tbgdl_new_scene(command1, command2, command3, command4, command5, command6, 
 
 def tbgdl_load_scene(scene):
     return scene
+
+def tbgdl_playsound(sound):
+    if os.name == "nt":
+        winsound.PlaySound(sound, winsound.SND_ASYNC)
+    else:
+        tbgdl_print(red, "TBGDL does not have support for playing sounds on Linux/MacOS yet.")
