@@ -11,6 +11,9 @@ setup(
     keywords="pygame, textadventure, text, game",
     version='1.0.1',
     packages=['tbgdl'],
+    install_requires=[
+        "colorama~=0.3.5"
+    ],
     url='https://github.com/Marko2155/TBGDL',
     license='MIT',
     author='Marko Camandioti',
