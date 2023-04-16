@@ -1,3 +1,4 @@
+![TBGDL Logo](/docs/img/logo.png)
 # TBGDL
 A Python library for creating text-based games.
 
