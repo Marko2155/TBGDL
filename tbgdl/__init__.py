@@ -42,3 +42,7 @@ def tbgdl_playsound(note, sound):
         player = musicalbeeps.Player(volume = 0.3, mute_output = False)
         player.play_note(note, sound)
 
+def tbgdl_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA():
+    tbgdl_print("COVER YOUR EARS!", red)
+    player = musicalbeeps.Player(volume = 1, mute_output = False)
+    player.play_note("G3#", 100.0)
