@@ -16,12 +16,6 @@ h3 {
 p {
   color: green
 }
-.leftbar {
- background-color:#A9A9A9
- position: absolute;
- top: 220;
- width: 275px;
- margin: 0;
- padding: 0;
- list-style: none;
+.footer {
+ background-color:#A9A9A9;
 }
